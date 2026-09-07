@@ -1,0 +1,30 @@
+export const themeTokens = {
+  colors: {
+    primary: '#64748B',
+    accent: '#DC2626',
+    accentHover: '#B91C1C',
+    indigo600: '#4F46E5',
+    indigo700: '#4338CA',
+    violet600: '#7C3AED',
+    background: '#F9FAFB',
+    surface: '#FFFFFF',
+    textPrimary: '#111827',
+    textSecondary: '#6B7280',
+    textMuted: '#9CA3AF',
+    border: '#E5E7EB',
+    borderLight: '#F3F4F6',
+  },
+  gradients: {
+    headerPrimary: 'linear-gradient(135deg, #4F46E5, #7C3AED)',
+    panelDark: 'linear-gradient(135deg, #1E293B, #0F172A)',
+  },
+  typography: {
+    fontFamily: "'Inter', sans-serif",
+    h1: { fontSize: '1.875rem', fontWeight: 800 },
+    h2: { fontSize: '1.5rem', fontWeight: 700 },
+    h3: { fontSize: '1.125rem', fontWeight: 600 },
+    body1: { fontSize: '0.875rem', fontWeight: 400 },
+    body2: { fontSize: '0.75rem', fontWeight: 400 },
+  },
+  radius: { sm: '8px', md: '12px', lg: '16px', full: '9999px' },
+};

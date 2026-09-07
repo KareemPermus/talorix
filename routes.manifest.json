@@ -1,0 +1,75 @@
+[
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/health",
+    "response_shape": {
+      "status": "string"
+    },
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/jobs",
+    "response_shape": "array",
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/jobs/:id",
+    "response_shape": {
+      "company": "string",
+      "created_at": "string",
+      "description": "string",
+      "id": "int",
+      "location": "string",
+      "salary_max": "int",
+      "salary_min": "int",
+      "status": "string",
+      "title": "string",
+      "type": "string"
+    },
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/applicants",
+    "response_shape": "array",
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/applicants/:id",
+    "response_shape": {
+      "applied_at": "string",
+      "cover_letter": "string",
+      "email": "string",
+      "id": "int",
+      "job_id": "int",
+      "job_title": "string",
+      "name": "string",
+      "phone": "string",
+      "resume_url": "string",
+      "status": "string"
+    },
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  }
+]
